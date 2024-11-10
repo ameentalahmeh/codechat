@@ -57,19 +57,45 @@ This will clone both the **Code Chat Extension** and **Code Chat Server** reposi
    ```
 
 - **Code Chat Server**:
-   ```bash
-   cd ../codechat-server
-   pip install -r requirements.txt
-   ```
+
+  1. **Create a virtual environment**:
+
+     In the **codechat-server** directory, create a virtual environment:
+
+     ```bash
+     python -m venv .venv
+     ```
+
+  2. **Activate the virtual environment**:
+
+     - On macOS/Linux:
+       ```bash
+       source .venv/bin/activate
+       ```
+
+     - On Windows:
+       ```bash
+       .venv\Scripts\activate
+       ```
+
+  3. **Install the dependencies**:
+
+     After activating the virtual environment, install the required Python dependencies:
+
+     ```bash
+     pip install -r requirements.txt
+     ```
 
 ### 3. Configure Environment:
 - Copy the `.env` template for the server and add your Together AI API key:
+  
    ```bash
    cp dist.env .env
    ```
 
 ### 4. Start the Server:
 Run the server using Uvicorn:
+
 ```bash
 uvicorn src.app:app --reload
 ```
