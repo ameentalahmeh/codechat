@@ -1,0 +1,6 @@
+[submodule "codechat-extension"]
+	path = codechat-extension
+	url = https://github.com/ameentalahmeh/codechat-extension
+[submodule "codechat-server"]
+	path = codechat-server
+	url = https://github.com/ameentalahmeh/codechat-server
