@@ -43,7 +43,7 @@ The **Code Chat Server** is a FastAPI-based backend that powers the Code Chat ex
 To clone the main repository with the submodules included, run the following command:
 ```bash
 git clone --recurse-submodules https://github.com/ameentalahmeh/codechat
-cd codechat-main
+cd codechat
 ```
 
 This will clone both the **Code Chat Extension** and **Code Chat Server** repositories as submodules, ensuring that the latest versions of both are included.
