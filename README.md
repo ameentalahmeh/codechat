@@ -11,15 +11,27 @@ The **Code Chat Extension** integrates with a FastAPI backend to offer natural l
 ### Key Features
 
 - **Native Language Support**: Communicate in your preferred language; Code Chat responds accordingly.
+
+   ![Response arabic lang](screenshots/response-with-arabic-lang.png)
+
 - **Multiple AI Models**: Access a range of powerful models:
   - **Llama-3.2-11B** for versatile knowledge
   - **Meta-Llama-3.1-8B** for faster performance
   - **CodeLlama-34B** for code-specific support
+  
+   ![AI models](screenshots/ai-models.png)
+
 - **Chat History**: Keep past conversations accessible.
+  
+   ![Chats History](screenshots/chats-history.png)
+
 - **Interactive Sidebar**: Initiate chats, review history, and manage saved conversations from a convenient sidebar.
+ 
+  ![Chat Box](screenshots/chat-box.png)
+
 - **Copy Code**: Easily copy AI-generated code snippets to your clipboard.
 
-![Copy Code](screenshots/copy-code.png)
+   ![Copy Code](screenshots/copy-code.png)
 
 ### Commands
 
@@ -45,14 +57,8 @@ The **Code Chat Server** is a FastAPI backend powering the Code Chat extension. 
 
 Explore more features through these screenshots:
 
-- **Chat Box**  
-  ![Chat Box](screenshots/chat-box.png)
-
 - **Chats History File**  
   ![Chats History File](screenshots/chats-history-file.png)
-
-- **Chats History**  
-  ![Chats History](screenshots/chats-history.png)
 
 - **Sending Request**  
   ![Sending Request](screenshots/sending-request.png)
